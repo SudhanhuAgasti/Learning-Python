@@ -10,9 +10,9 @@ var sortedSquares = function (nums) {
     // Separate negative and positive numbers
     for (let i = 0; i < nums.length; i++) {
         if (nums[i] >= 0) {
-            b.push(nums[i]);
+            b.push(nums[i]);// positive 
         } else {
-            a.push(nums[i]);
+            a.push(nums[i]);// negetive
         }
     }
 
