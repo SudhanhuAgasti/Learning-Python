@@ -1,5 +1,5 @@
 // Approach one
-var threeSum = function(nums) {
+var threeSum = function (nums) {
     nums.sort((a, b) => a - b);
 
     let result = [];
