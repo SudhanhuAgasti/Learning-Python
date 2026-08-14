@@ -1,4 +1,24 @@
 // Approach one
+
+// sum == 0
+/* 
+Pehle array ko sort karo
+Ek number ko fix karo (nums[i])
+Duplicate fixed numbers ko skip karo
+left pointer ko fixed number ke baad rakho
+right pointer ko array ke end par rakho
+Teen numbers ka sum nikalo
+Agar sum 0 hai:
+Triplet ko result mein add karo
+left++ aur right-- karo
+Duplicate left values skip karo
+Duplicate right values skip karo
+Agar sum 0 se chhota hai:
+left++ karo (bada sum chahiye)
+Agar sum 0 se bada hai:
+right-- karo (chhota sum chahiye)
+Jab tak left < right hai, process repeat karo
+Sab fixed elements check hone ke baad result return karo */
 var threeSum = function (nums) {
     nums.sort((a, b) => a - b);
 

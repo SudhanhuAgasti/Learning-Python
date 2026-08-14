@@ -6,7 +6,7 @@ var threeSum = function (nums) {
         if (i > 0 && nums[i - 1] == nums[i]) continue;
         if (nums[i] > 0) break;
         let j = i + 1, k = nums.length - 1;
-        while (j < k) {
+        while (j < k) { 
             if (nums[j] + nums[k] + nums[i] == 0) {
                 ans.push([nums[i], nums[j], nums[k]]);
                 j++;
