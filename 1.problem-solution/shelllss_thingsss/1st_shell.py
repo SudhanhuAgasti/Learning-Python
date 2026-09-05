@@ -8,11 +8,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> 2 **3
 8
 >>> #power
->>> imort math
-  File "<python-input-4>", line 1
-    imort math
-          ^^^^
-SyntaxError: invalid syntax
 >>> import math
 >>> math.pi
 3.141592653589793
@@ -21,20 +16,7 @@ SyntaxError: invalid syntax
 0.7886480730603864
 >>> random.choice([1,2,3,4,5,6])
 2
->>> 
->>> random.choice
-<bound method Random.choice of <random.Random object at 0x0000025E9F4C8EE0>>
->>> random.choice
-<bound method Random.choice of <random.Random object at 0x0000025E9F4C8EE0>>
 >>> random.choice([12,34,65,34])
-34
->>> usrename="sudhanshu"
->>> len(username)
-Traceback (most recent call last):
-  File "<python-input-15>", line 1, in <module>
-    len(username)
-        ^^^^^^^^
-NameError: name 'username' is not defined. Did you mean: 'usrename'?
 >>> username="sudhanhsu"
 >>> len(username)
 9
@@ -45,12 +27,6 @@ NameError: name 'username' is not defined. Did you mean: 'usrename'?
 >>> username[3]
 'd'
 >>> username="sudhanshu"
->>> useranme[0]
-Traceback (most recent call last):
-  File "<python-input-23>", line 1, in <module>
-    useranme[0]
-    ^^^^^^^^
-NameError: name 'useranme' is not defined. Did you mean: 'username'?
 >>> username[0]
 's'
 >>> username[-1]
