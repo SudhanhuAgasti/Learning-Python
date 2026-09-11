@@ -5,5 +5,6 @@ def factorial(n):
         return 1
     else:
         return n* factorial(n-1)    
+        # here the function =   factorial()   called it self.
 
 print(factorial(5))

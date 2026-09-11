@@ -1,6 +1,6 @@
 # generator function with yield
 
-# Write a generator function that yields even number up to specified limit
+# Write a generator function that yields even number up to specified limit.
 
 def even_generator(limit):
     for i in range(2, limit+1 ,2):

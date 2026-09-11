@@ -5,6 +5,7 @@
 def print_kwargs(**kwargs):
     for key,value in kwargs.items():
         print(f"{key}:{value}")
+        # f    is the formatting string here !
 
 
 print_kwargs(name="Ajay tiwari ",power="lazer")
